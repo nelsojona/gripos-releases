@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Grip OS</title>
+        <!-- Public release feed for Sparkle auto-updates.
+             DMGs and signed ZIPs are attached to GitHub Releases in this repo.
+             Source code remains in private repos (nelsojona/gripos-*). -->
+        <item>
+            <title>2026.4.1</title>
+            <pubDate>Thu, 02 Apr 2026 08:46:26 -0400</pubDate>
+            <link>https://raw.githubusercontent.com/nelsojona/gripos-releases/main/appcast.xml</link>
+            <sparkle:version>202604010</sparkle:version>
+            <sparkle:shortVersionString>2026.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<h2>Grip Station 2026.4.1</h2>
+<ul>
+<li>Magical onboarding: gateway auto-detect, install, and connect</li>
+<li>API key input with macOS Keychain storage</li>
+<li>AI personality setup (SOUL + IDENTITY)</li>
+<li>Live permission checks with deep-links to System Settings</li>
+<li>Multi-port gateway auto-connect for fleet nodes</li>
+<li>Cmd+K wired to command bar search</li>
+<li>Accessibility labels across all views</li>
+</ul>
+<p><a href="https://gripos.dev">Visit gripos.dev</a></p>
+]]></description>
+            <enclosure url="https://github.com/nelsojona/gripos-releases/releases/download/v2026.4.1/GripStation-2026.4.1.zip" length="26777681" type="application/octet-stream" sparkle:edSignature="NVVh2GpjUz/au2xpD3J6XP46omIjXPOvBdmeu9zzY1ms9jRbKtIYk8c2vA+UGdKiTEP645RQcBx5eOfSLAgZDQ=="/>
+        </item>
+    </channel>
+</rss>
