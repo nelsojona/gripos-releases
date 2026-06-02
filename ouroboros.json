@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "autonomy_level": "act-with-confirm",
+  "goal_vector": {
+    "compliance": {
+      "target": "ouroboros-contract-present",
+      "weight": 1.0,
+      "hard": true
+    },
+    "build_health": {
+      "target": "passing",
+      "weight": 0.7
+    },
+    "tests_pass": {
+      "target": "green",
+      "weight": 0.8
+    },
+    "security": {
+      "target": "no-known-vulns",
+      "weight": 0.6
+    }
+  },
+  "evaluation_window_runs": 10,
+  "_meta": {
+    "purpose": "Ouroboros per-repo compliance contract",
+    "stack": "generic",
+    "managed_by": "ouroboros"
+  }
+}
